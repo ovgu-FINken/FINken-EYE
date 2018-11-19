@@ -1,0 +1,51 @@
+Scanning dependencies of target vikit_common
+[ 17%] Building CXX object CMakeFiles/vikit_common.dir/src/math_utils.cpp.o
+[ 17%] Building CXX object CMakeFiles/vikit_common.dir/src/omni_camera.cpp.o
+[ 23%] Building CXX object CMakeFiles/vikit_common.dir/src/robust_cost.cpp.o
+[ 17%] Building CXX object CMakeFiles/vikit_common.dir/src/atan_camera.cpp.o
+[ 29%] Building CXX object CMakeFiles/vikit_common.dir/src/vision.cpp.o
+[ 41%] Building CXX object CMakeFiles/vikit_common.dir/src/user_input_thread.cpp.o
+[ 41%] Building CXX object CMakeFiles/vikit_common.dir/src/performance_monitor.cpp.o
+[ 47%] Building CXX object CMakeFiles/vikit_common.dir/src/pinhole_camera.cpp.o
+In file included from /home/marcel/workspace/rpg_vikit/vikit_common/include/vikit/omni_camera.h:15:0,
+                 from /home/marcel/workspace/rpg_vikit/vikit_common/src/omni_camera.cpp:10:
+/home/marcel/workspace/rpg_vikit/vikit_common/include/vikit/math_utils.h:14:24: fatal error: sophus/se3.h: No such file or directory
+ #include <sophus/se3.h>
+                        ^
+compilation terminated.
+CMakeFiles/vikit_common.dir/build.make:86: recipe for target 'CMakeFiles/vikit_common.dir/src/omni_camera.cpp.o' failed
+make[2]: *** [CMakeFiles/vikit_common.dir/src/omni_camera.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/marcel/workspace/rpg_vikit/vikit_common/src/robust_cost.cpp:24:0:
+/home/marcel/workspace/rpg_vikit/vikit_common/include/vikit/math_utils.h:14:24: fatal error: sophus/se3.h: No such file or directory
+ #include <sophus/se3.h>
+                        ^
+compilation terminated.
+CMakeFiles/vikit_common.dir/build.make:182: recipe for target 'CMakeFiles/vikit_common.dir/src/robust_cost.cpp.o' failed
+make[2]: *** [CMakeFiles/vikit_common.dir/src/robust_cost.cpp.o] Error 1
+In file included from /home/marcel/workspace/rpg_vikit/vikit_common/src/math_utils.cpp:8:0:
+/home/marcel/workspace/rpg_vikit/vikit_common/include/vikit/math_utils.h:14:24: fatal error: sophus/se3.h: No such file or directory
+ #include <sophus/se3.h>
+                        ^
+compilation terminated.
+CMakeFiles/vikit_common.dir/build.make:110: recipe for target 'CMakeFiles/vikit_common.dir/src/math_utils.cpp.o' failed
+make[2]: *** [CMakeFiles/vikit_common.dir/src/math_utils.cpp.o] Error 1
+In file included from /home/marcel/workspace/rpg_vikit/vikit_common/include/vikit/atan_camera.h:20:0,
+                 from /home/marcel/workspace/rpg_vikit/vikit_common/src/atan_camera.cpp:14:
+/home/marcel/workspace/rpg_vikit/vikit_common/include/vikit/math_utils.h:14:24: fatal error: sophus/se3.h: No such file or directory
+ #include <sophus/se3.h>
+                        ^
+compilation terminated.
+CMakeFiles/vikit_common.dir/build.make:62: recipe for target 'CMakeFiles/vikit_common.dir/src/atan_camera.cpp.o' failed
+make[2]: *** [CMakeFiles/vikit_common.dir/src/atan_camera.cpp.o] Error 1
+In file included from /home/marcel/workspace/rpg_vikit/vikit_common/src/pinhole_camera.cpp:15:0:
+/home/marcel/workspace/rpg_vikit/vikit_common/include/vikit/math_utils.h:14:24: fatal error: sophus/se3.h: No such file or directory
+ #include <sophus/se3.h>
+                        ^
+compilation terminated.
+CMakeFiles/vikit_common.dir/build.make:230: recipe for target 'CMakeFiles/vikit_common.dir/src/pinhole_camera.cpp.o' failed
+make[2]: *** [CMakeFiles/vikit_common.dir/src/pinhole_camera.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/vikit_common.dir/all' failed
+make[1]: *** [CMakeFiles/vikit_common.dir/all] Error 2
+Makefile:129: recipe for target 'all' failed
+make: *** [all] Error 2
