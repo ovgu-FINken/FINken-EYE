@@ -1,0 +1,2 @@
+rpg_svo/rqt_svo:rpg_svo/svo:rpg_svo/svo_analysis:rpg_svo/svo_msgs:rpg_svo/svo_ros:rpg_vikit/vikit_common:rpg_vikit/vikit_py:rpg_vikit/vikit_ros
+-DCATKIN_DEVEL_PREFIX=/home/user/svo_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/user/svo_workspace/install -G Unix Makefiles
