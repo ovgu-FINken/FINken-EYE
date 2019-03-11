@@ -1,8 +1,0 @@
-prefix=/home/user/svo_workspace/install
-
-Name: vikit_py
-Description: Description of vikit_py
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/user/svo_workspace/install/lib 
-Requires: 

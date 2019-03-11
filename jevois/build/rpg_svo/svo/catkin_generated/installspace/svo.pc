@@ -1,8 +1,0 @@
-prefix=/home/user/svo_workspace/install
-
-Name: svo
-Description: Description of svo
-Version: 0.1.0
-Cflags: -I/home/user/svo_workspace/install/include -I/usr/include/eigen3 -I/usr/local/include -I/usr/local/include/opencv -I/home/user/workspace/Sophus -I/usr/include -I/home/user/workspace/fast/include
-Libs: -L/home/user/svo_workspace/install/lib -lsvo /usr/local/lib/libopencv_calib3d.so.3.4.5 /usr/local/lib/libopencv_core.so.3.4.5 /usr/local/lib/libopencv_dnn.so.3.4.5 /usr/local/lib/libopencv_features2d.so.3.4.5 /usr/local/lib/libopencv_flann.so.3.4.5 /usr/local/lib/libopencv_highgui.so.3.4.5 /usr/local/lib/libopencv_imgcodecs.so.3.4.5 /usr/local/lib/libopencv_imgproc.so.3.4.5 /usr/local/lib/libopencv_ml.so.3.4.5 /usr/local/lib/libopencv_objdetect.so.3.4.5 /usr/local/lib/libopencv_photo.so.3.4.5 /usr/local/lib/libopencv_shape.so.3.4.5 /usr/local/lib/libopencv_stitching.so.3.4.5 /usr/local/lib/libopencv_superres.so.3.4.5 /usr/local/lib/libopencv_video.so.3.4.5 /usr/local/lib/libopencv_videoio.so.3.4.5 /usr/local/lib/libopencv_videostab.so.3.4.5 /home/user/workspace/Sophus/build/libSophus.so /usr/lib/arm-linux-gnueabihf/libboost_thread.so /usr/lib/arm-linux-gnueabihf/libboost_system.so /usr/lib/arm-linux-gnueabihf/libboost_chrono.so /usr/lib/arm-linux-gnueabihf/libboost_date_time.so /usr/lib/arm-linux-gnueabihf/libboost_atomic.so /usr/lib/arm-linux-gnueabihf/libpthread.so /home/user/workspace/fast/build/libfast.so
-Requires: roscpp roslib vikit_common vikit_ros
